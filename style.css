@@ -1,3 +1,19 @@
 body {
   background-color: #D3D3D3;
 }
+
+.button:hover{
+	background-color:#E98B43;
+}
+
+.button a,a:visited,a:active{
+	color:#1E3064;
+}
+
+.button{
+	display:inline-block;
+	text-decoration:none;
+	padding:12px;
+	text-align:center;
+	border-radius:50px;
+}
