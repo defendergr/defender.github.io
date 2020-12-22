@@ -17,9 +17,33 @@ body {
 .button{
 	display:inline-block;
 	text-decoration:none;
-	padding:12px;
+	padding:8px;
 	text-align:center;
 	border-radius:50px;
+}
+
+.cbutton:hover{
+	background-color:purple;
+	color:white;
+}
+
+.cbutton a,a:visited,a:active{
+	color:blue;
+}
+
+.cbutton{
+	display:inline-block;
+	text-decoration:none;
+	padding:5px;
+	text-align:center;
+	border-radius:10px;
+	color:red;
+}
+
+.cd{
+	font-size:12px;
+	color:red;
+	padding-left:15px;
 }
 
 .sxedio{
@@ -124,3 +148,4 @@ left:185px;
 top:100px;
 color:white;
 }
+
